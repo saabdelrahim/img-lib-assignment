@@ -1,0 +1,48 @@
+
+@import 'mixins';
+@import 'background';
+
+
+.image-card{
+    margin-top: 2.5rem;  
+}
+
+.form-check input[type="checkbox"] {
+    width:18em;
+    height: 18em;
+	cursor: pointer;	
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+}
+
+
+.form-check [type="checkbox"]:checked  { 
+	border: 1.5px solid #e31414;
+       
+}
+
+
+
+//media queries
+@media(min-width:1200px){
+    .form-check{
+        padding-bottom: .6rem;
+        
+        
+    }
+}
+@media(max-width:990px){
+    .form-check{
+        padding-bottom: 2.9rem;
+    
+        
+    }
+   
+}
+
+
+
+  
+  
